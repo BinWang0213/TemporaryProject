@@ -3,6 +3,10 @@ AR2GEMS
 
 ### This post is a step-by-step guide on how to compile AR2GEMS in Windows:
 
+<p align="center">
+   <img src = "https://github.com/BinWang0213/TemporaryProject/tree/master/resources/Step6.8.png" height="300">
+   </p>
+
 #### Prerequisites
 This software is no longer matained, the latest version is 07/04/2013. In order to compile this code successfully, several specific old versions of libraries has to be installed.
 1) Windows 7 Professional 64bit
@@ -60,7 +64,9 @@ Step4. Compiling Qt 64 bits (2-3 hours)
 
 Step5. Compiling VTK with QT (1 hours)
 -------------
-
+<p align="center">
+  <img src = "https://github.com/BinWang0213/TemporaryProject/tree/master/resources/Step5.png" height="300">
+</p>
 1. Download and install [CMake]
 2. Get the VTK 6.0 source code either from Git or from the [website](http://vtk.org/VTK/resources/software.html).
 3. Unzip it (e.g. c:\VTK\VTK) and create a bin folder (c:\VTK\bin)
@@ -95,6 +101,9 @@ Step6. Building AR2GEMS (30 mins)
 2. Open the visual studio solution (C:\AR2GEMS\WinGsTLAppli\ar2gems.sln)
 3. Setting Qt_version for the 14 projects (such as ar2gems_actions,main) in ar2gems.sln.
    (e.g. right-click ar2gems_actions->Qt project settings->Version->4.8.3x64)
+   <p align="center">
+   <img src = "https://github.com/BinWang0213/TemporaryProject/tree/master/resources/Step6.3.png" height="300">
+   </p>
 4. Check additional lib dependency of linker for the 14 projects in in ar2gems.sln.
    Change vtkRenderingQt-6.04.lib -> vtkRenderingQt-6.0.lib
    Change vtkViewsQt-6.04.lib -> vtkViewsQt-6.0.lib
