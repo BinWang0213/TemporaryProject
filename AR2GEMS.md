@@ -1,23 +1,8 @@
 AR2GEMS
 =======
 
-__AR2Tech geostatistical libraries and software__
-
+Complete Build Guide for AR2GEMS
 -------------------------------------------------
-
-This project is managed and owned by _Advanced Resources and Risk Technology, LLC (AR2Tech)_.
-For any questions, please contact [Alex Boucher](aboucher@ar2tech.com).
-
-__AR2GEMS__ is a branch of the open-source [SGeMS Software][1] under its x-free license.
-This version cannot be integrated into existing software or distributed without
-the explicit authorization of AR2Tech.
-
-If you would like to contribute code to this project you can either:
-
-1. License the new code with a [BSD license][2]
-2. Transfer copyright to AR2Tech
-
-If you are interested into another option please contact AR2Tech.
 
 ### Academic research:
 
@@ -85,28 +70,4 @@ Building AR2GEMS
 
 2. Open the visual studio solution and build the release and debug binaries
 
-### Linux
 
-1. Add something like the following to your .bashrc:
-
-   ```
-   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/vtk/lib
-   export GSTLAPPLIHOME=/home/julio/Projects/ar2tech-sgems
-   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$GSTLAPPLIHOME/lib/linux
-   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$GSTLAPPLIHOME/plugins/designer
-   ```
-
-  (don't forget to start a new Bash session)
-
-2. Edit .qmake.cache to point where on your system VTK, Python and Boost are found.
-
-3. Build it:
-
-   ```
-   qmake
-   make -j 8
-   ```
-
-[1]: http://sgems.sourceforge.net/
-[2]: http://en.wikipedia.org/wiki/BSD_licenses/
-[3]: http://www.cmake.org/
