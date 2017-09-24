@@ -1,29 +1,27 @@
 AR2GEMS
 =======
 
-Complete Build Guide for AR2GEMS
--------------------------------------------------
+### This post is a step-by-step guide on how to compile AR2GEMS in Windows:
 
-### Academic research:
+#### Prerequisites
+This software is no longer matained, the latest version is 07/04/2013. In order to compile this code successfully, several specific old versions of libraries has to be installed.
+1) Windows 7 Professional 64bit
+2) Visual Studio 2010 with SP1 
+3) Strawberry Perl (https://www.perl.org/get.html)
+4) Python 2.7 (https://www.python.org/download/releases/2.7/)
+4) Qt 4.8.3 x64 (qt-everywhere-opensource-src-4.8.3.zip at https://download.qt.io/archive/qt/4.8/4.8.3/)
+5) VTK 6.0.0 (http://www.vtk.org/files/release/6.0/vtk-6.0.0.zip)
+6) Boost 1.52.0 (http://www.boost.org/users/history/version_1_52_0.html)
+7) CMake 3.9.3 x64 (https://cmake.org/files/v3.9/cmake-3.9.3-win64-x64.msi)
 
-There are no restrictions for academic purposes.  Note that only the plugins can be
-distributed by third-party, the software itself can only be distributed by AR2Tech.
-This is done to reduce fragmentation of the software.
+Note that all above softwares(libraries) must be installed with the given versions. Usage of higher version will lead to the failure of building, such as win10, VS2015, VTK 6.3.0, Boost 1.54.0.
 
-### Commercial plugins:
+### Build instructions:
 
-You are free to build proprietary plugins for commercial purposes within an organization
-(no distribution) or to be freely distributed (no requirement to release the source code).
-Please contact AR2Tech for licensing agreement if you intend to sell or distribute the
-plugins with a fee.
+Step1. Install Windows 7 and Visual Studio 2010 with SP1
+Step2. Install Perl and Python 2.7
 
-Compiling SGeMS with Visual Studio 2010 on 64 bits
---------------------------------------------------
-
-Note that Visual Studio SP1 must be installed.
-Required external libraries: Qt, VTK, Boost and Python.
-
-Compiling Qt 64 bits
+Step3. Compiling Qt 64 bits
 --------------------
 
 1. Download Qt source code (a zip file) from: http://qt-project.org/downloads
