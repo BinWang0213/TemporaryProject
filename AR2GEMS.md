@@ -108,14 +108,14 @@ Step6. Building AR2GEMS (30 mins)
    <img src = "https://github.com/BinWang0213/TemporaryProject/blob/master/resources/Step6.3.PNG" height="300">
    </p>
 4. Check additional lib dependency of linker for the 14 projects in in ar2gems.sln.
-<p align="center">
+   <p align="center">
    <img src = "https://github.com/BinWang0213/TemporaryProject/blob/master/resources/Step6.4.PNG" height="300">
    </p>
-   Change vtkRenderingQt-6.04.lib -> vtkRenderingQt-6.0.lib
-   Change vtkViewsQt-6.04.lib -> vtkViewsQt-6.0.lib
-   Change vtkGUISupportQt-6.04.lib -> vtkGUISupportQt-6.0.lib
-   Change vtkGUISupportQtOpenGL-6.04.lib -> vtkGUISupportQtOpenGL-6.0.lib
-   Change QtUiTools4.lib -> QtUiTools.lib
+   Change vtkRenderingQt-6.04.lib -> vtkRenderingQt-6.0.lib</br>
+   Change vtkViewsQt-6.04.lib -> vtkViewsQt-6.0.lib</br>
+   Change vtkGUISupportQt-6.04.lib -> vtkGUISupportQt-6.0.lib</br>
+   Change vtkGUISupportQtOpenGL-6.04.lib -> vtkGUISupportQtOpenGL-6.0.lib</br>
+   Change QtUiTools4.lib -> QtUiTools.lib</br>
 5. Set default start project as ar2gems_actions, build the release binaries
 6. Set default start project as main, build the release binaries
 7. Copy all of vtk's dynamic library dll files (C:\VTK\bin\bin\Release) to C:\AR2GEMS\lib\x64\release
