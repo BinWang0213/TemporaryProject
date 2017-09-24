@@ -28,7 +28,7 @@ Step2. Install Perl and Python 2.7 (15 mins)
 --------------------
 Step3. Compiling Boost 64bits (1 hours)
 --------------------
-<p align="center">
+   <p align="center">
    <img src = "https://github.com/BinWang0213/TemporaryProject/blob/master/resources/Step3.PNG" height="300">
    </p>
 1. Download Boost source code from http://www.boost.org/users/history/version_1_52_0.html
