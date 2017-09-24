@@ -89,9 +89,6 @@ Step5. Compiling VTK with QT (1 hours)
 
 Step6. Building AR2GEMS (30 mins)
 ----------------
-
-### Windows
-
 1. Set the following environmental variables:
    * QTDIR and QTDIRx64: path to Qt (e.g. C:\Qt\4.8.3x64)
    * VTKDIR: path to VTK (e.g. C:\VTK\bin)
