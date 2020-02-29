@@ -97,3 +97,7 @@ icoFoam -help
 
 
 ```
+Reminder: Whenever you start a new terminal window or tab, you should run the alias command associated to the OpenFOAM 6 shell environment. In other words, run the following command whenever you start a new terminal:
+```
+of6
+```
